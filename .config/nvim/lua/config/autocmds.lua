@@ -17,6 +17,16 @@ vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold" }, {
   command = "checktime",
 })
 
+-- absolute line numbers in insert mode, relative everywhere else
+vim.api.nvim_create_autocmd("InsertEnter", {
+  group = augroup,
+  callback = function() vim.wo.relativenumber = false end,
+})
+vim.api.nvim_create_autocmd("InsertLeave", {
+  group = augroup,
+  callback = function() vim.wo.relativenumber = true end,
+})
+
 -- filetype mappings
 vim.filetype.add({
   extension = {
