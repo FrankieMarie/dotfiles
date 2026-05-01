@@ -10,6 +10,7 @@ vim.pack.add({
   { src = "https://github.com/akinsho/bufferline.nvim" },
   { src = "https://github.com/echasnovski/mini.bufremove" },
   { src = "https://github.com/windwp/nvim-ts-autotag" },
+  { src = "https://github.com/windwp/nvim-autopairs" },
   { src = "https://github.com/christoomey/vim-tmux-navigator" },
 })
 
@@ -23,4 +24,5 @@ require("plugins.conform")
 require("plugins.bufferline")
 require("plugins.bufremove")
 require("plugins.ts-autotag")
+require("plugins.autopairs")
 require("plugins.tmux-navigator")
