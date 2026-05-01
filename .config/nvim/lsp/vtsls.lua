@@ -1,0 +1,9 @@
+-- TypeScript / JavaScript LSP. Uses the project's local typescript.
+return {
+  cmd = { "vtsls", "--stdio" },
+  filetypes = {
+    "javascript", "javascriptreact", "javascript.jsx",
+    "typescript", "typescriptreact", "typescript.tsx",
+  },
+  root_markers = { "tsconfig.json", "jsconfig.json", "package.json", ".git" },
+}

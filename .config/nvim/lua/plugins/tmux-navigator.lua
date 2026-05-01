@@ -1,0 +1,1 @@
+-- Seamless Ctrl-hjkl between nvim splits and tmux panes. No setup needed.
