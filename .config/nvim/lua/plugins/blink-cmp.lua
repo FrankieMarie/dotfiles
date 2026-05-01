@@ -1,6 +1,6 @@
 -- Autocompletion. Sources: lsp, path, snippets, buffer.
 require("blink.cmp").setup({
-  keymap = { preset = "default" },
+  keymap = { preset = "super-tab" },
   sources = {
     default = { "lsp", "path", "snippets", "buffer" },
   },
