@@ -12,6 +12,7 @@ return {
     "tailwind.config.cjs", "tailwind.config.mjs",
     "postcss.config.js", "postcss.config.ts",
     "postcss.config.cjs", "postcss.config.mjs",
+    "package.json",
   },
   settings = {
     tailwindCSS = {
