@@ -31,13 +31,13 @@ vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { desc = "Show diagn
 -- LSP keymaps (only active when an LSP server attaches)
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(args)
-    local map = function(keys, func)
-      vim.keymap.set("n", keys, func, { buffer = args.buf })
+    local map = function(keys, func, desc)
+      vim.keymap.set("n", keys, func, { buffer = args.buf, desc = desc })
     end
-    map("gd", vim.lsp.buf.definition)
-    map("gr", vim.lsp.buf.references)
-    map("K", vim.lsp.buf.hover)
-    map("<leader>ca", vim.lsp.buf.code_action)
-    map("<leader>rn", vim.lsp.buf.rename)
+    map("gd", vim.lsp.buf.definition, "Go to definition")
+    map("gr", vim.lsp.buf.references, "Find references")
+    map("K", vim.lsp.buf.hover, "Hover docs")
+    map("<leader>ca", vim.lsp.buf.code_action, "Code action")
+    map("<leader>rn", vim.lsp.buf.rename, "Rename symbol")
   end,
 })

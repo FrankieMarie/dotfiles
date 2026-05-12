@@ -34,7 +34,6 @@ local undodir = vim.fn.stdpath("state") .. "/undo"
 if vim.fn.isdirectory(undodir) == 0 then
   vim.fn.mkdir(undodir, "p")
 end
-vim.opt.backup = false
 vim.opt.writebackup = false
 vim.opt.swapfile = false
 vim.opt.undofile = true
@@ -46,23 +45,18 @@ vim.opt.timeoutlen = 500
 vim.opt.ttimeoutlen = 0
 
 -- File handling
-vim.opt.autoread = true
 vim.opt.autowrite = false
-vim.opt.hidden = true
 
 -- General
-vim.opt.errorbells = false
 vim.opt.backspace = "indent,eol,start"
 vim.opt.autochdir = false
 vim.opt.iskeyword:append("-")
 vim.opt.path:append("**")
-vim.opt.selection = "inclusive"
-vim.opt.mouse = "a"
 vim.opt.clipboard:append("unnamedplus")
-vim.opt.modifiable = true
-vim.opt.encoding = "utf-8"
 
--- Folding (start with all folds open)
+-- Folding via tree-sitter. Start with all folds open.
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 vim.opt.foldlevel = 99
 
 -- Splits open in expected direction

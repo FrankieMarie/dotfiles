@@ -4,7 +4,7 @@ local augroup = vim.api.nvim_create_augroup("UserAutocmds", { clear = true })
 vim.api.nvim_create_autocmd("TextYankPost", {
   group = augroup,
   callback = function()
-    vim.highlight.on_yank({
+    vim.hl.on_yank({
       higroup = "Search",
       timeout = 200,
     })
@@ -30,7 +30,7 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 -- filetype mappings
 vim.filetype.add({
   extension = {
-    mdx = "markdown",
+    mdx = "mdx",
     astro = "astro",
   },
 })
@@ -38,7 +38,7 @@ vim.filetype.add({
 -- wrap, linebreak and spellcheck on markdown and text files
 vim.api.nvim_create_autocmd("FileType", {
   group = augroup,
-  pattern = { "markdown", "text", "gitcommit" },
+  pattern = { "markdown", "mdx", "text", "gitcommit" },
   callback = function()
     vim.opt_local.wrap = true
     vim.opt_local.linebreak = true

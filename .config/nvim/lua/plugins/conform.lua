@@ -10,8 +10,10 @@ require("conform").setup({
     json = { "prettier" },
     yaml = { "prettier" },
     markdown = { "prettier" },
+    mdx = { "prettier" },
     astro = { "prettier" },
     python = { "ruff_format" },
+    lua = { "stylua" },
   },
   format_on_save = {
     timeout_ms = 1000,

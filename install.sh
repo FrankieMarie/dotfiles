@@ -15,11 +15,11 @@ Usage: $0 [--deps|--all]
 EOF
 }
 
-# Pick the host's package manager. Bails on unsupported distros.
-detect_distro() {
-  if command -v pacman >/dev/null 2>&1; then echo arch
-  elif command -v apt-get >/dev/null 2>&1; then echo debian
-  else echo "unsupported distro" >&2; exit 1
+# Bail loudly if not on Arch — this script is Arch-only.
+require_arch() {
+  if ! command -v pacman >/dev/null 2>&1; then
+    echo "this installer only supports Arch (pacman not found)" >&2
+    exit 1
   fi
 }
 
@@ -47,38 +47,8 @@ install_arch() {
     fzf ripgrep fd tmux \
     nodejs npm \
     python python-pipx \
-    lua-language-server \
+    lua-language-server stylua \
     git base-devel curl
-}
-
-# Debian/Ubuntu system packages. lua-language-server isn't reliably packaged, so we grab the latest release below.
-install_debian() {
-  sudo apt-get update
-  sudo apt-get install -y \
-    fzf ripgrep fd-find tmux \
-    nodejs npm \
-    python3 python3-pip pipx \
-    git build-essential curl
-  install_lua_ls_from_release
-}
-
-# Download latest lua-language-server release into ~/.local for distros that don't package it.
-install_lua_ls_from_release() {
-  local bin="$HOME/.local/bin/lua-language-server"
-  if [ -x "$bin" ]; then echo "lua-language-server: already installed"; return; fi
-
-  # Resolve the latest release tag from GitHub's API.
-  local version
-  version=$(curl -fsSL https://api.github.com/repos/LuaLS/lua-language-server/releases/latest \
-    | grep '"tag_name":' | head -1 | sed -E 's/.*"([^"]+)".*/\1/')
-  echo "lua-language-server: installing $version"
-
-  local dir="$HOME/.local/share/lua-language-server"
-  mkdir -p "$dir" "$HOME/.local/bin"
-  curl -fsSL "https://github.com/LuaLS/lua-language-server/releases/download/${version}/lua-language-server-${version}-linux-x64.tar.gz" \
-    | tar -xz -C "$dir"
-  ln -sf "$dir/bin/lua-language-server" "$bin"
-  echo "lua-language-server: installed (ensure ~/.local/bin is on PATH)"
 }
 
 # Global npm packages — LSP servers and prettier.
@@ -105,12 +75,10 @@ install_pipx_packages() {
   done
 }
 
-# Full dependency install for the detected distro.
+# Full dependency install (Arch only).
 do_deps() {
-  case "$(detect_distro)" in
-    arch)   install_arch ;;
-    debian) install_debian ;;
-  esac
+  require_arch
+  install_arch
   install_npm_globals
   install_pipx_packages
 }

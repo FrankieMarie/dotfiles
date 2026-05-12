@@ -10,6 +10,9 @@ require("nvim-treesitter").install({
   "dockerfile",
 })
 
+-- No dedicated mdx parser in nvim-treesitter; markdown parses it well enough.
+vim.treesitter.language.register("markdown", "mdx")
+
 vim.api.nvim_create_autocmd("FileType", {
   group = vim.api.nvim_create_augroup("UserTreesitter", { clear = true }),
   callback = function()
