@@ -1,4 +1,4 @@
-vim.pack.add({
+local plugins = {
   { src = "https://github.com/vague-theme/vague.nvim" },
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
@@ -15,7 +15,18 @@ vim.pack.add({
   { src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
   { src = "https://github.com/folke/flash.nvim" },
   { src = "https://github.com/nvim-lualine/lualine.nvim" },
-})
+}
+
+vim.pack.add(plugins)
+
+local desired = {}
+for _, p in ipairs(plugins) do
+  desired[p.src:match("([^/]+)$"):gsub("%.git$", "")] = true
+end
+local opt_dir = vim.fn.stdpath("data") .. "/site/pack/core/opt"
+for _, dir in ipairs(vim.fn.readdir(opt_dir) or {}) do
+  if not desired[dir] then pcall(vim.pack.del, { dir }) end
+end
 
 require("plugins.vague")
 require("plugins.treesitter")
