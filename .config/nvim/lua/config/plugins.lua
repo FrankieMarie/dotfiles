@@ -1,5 +1,5 @@
 vim.pack.add({
-  { src = "https://github.com/rose-pine/neovim",                name = "rose-pine" },
+  { src = "https://github.com/vague-theme/vague.nvim" },
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
   { src = "https://github.com/ibhagwan/fzf-lua" },
@@ -15,7 +15,7 @@ vim.pack.add({
   { src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
 })
 
-require("plugins.rose-pine")
+require("plugins.vague")
 require("plugins.treesitter")
 require("plugins.fzf")
 require("plugins.gitsigns")

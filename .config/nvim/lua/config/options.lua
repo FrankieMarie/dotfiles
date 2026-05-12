@@ -6,6 +6,7 @@ vim.opt.wrap = false
 vim.opt.scrolloff = 10
 vim.opt.sidescrolloff = 10
 vim.opt.winborder = "rounded"
+vim.opt.termguicolors = true
 
 -- Indentation (2 spaces)
 vim.opt.tabstop = 2
