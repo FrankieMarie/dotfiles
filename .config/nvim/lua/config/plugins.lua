@@ -14,6 +14,7 @@ vim.pack.add({
   { src = "https://github.com/christoomey/vim-tmux-navigator" },
   { src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
   { src = "https://github.com/folke/flash.nvim" },
+  { src = "https://github.com/nvim-lualine/lualine.nvim" },
 })
 
 require("plugins.vague")
@@ -30,3 +31,4 @@ require("plugins.autopairs")
 require("plugins.tmux-navigator")
 require("plugins.render-markdown")
 require("plugins.flash")
+require("plugins.lualine")

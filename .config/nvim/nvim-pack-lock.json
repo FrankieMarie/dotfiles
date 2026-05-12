@@ -9,6 +9,14 @@
       "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
       "src": "https://github.com/akinsho/bufferline.nvim"
     },
+    "cobalt2.nvim": {
+      "rev": "0cc17f3491feba19ed62b2d9622577f7822a0113",
+      "src": "https://github.com/lalitmee/cobalt2.nvim"
+    },
+    "colorbuddy.nvim": {
+      "rev": "cdb5b0654d3cafe61d2a845e15b2b4b0e78e752a",
+      "src": "https://github.com/tjdevries/colorbuddy.nvim"
+    },
     "conform.nvim": {
       "rev": "dca1a190aa85f9065979ef35802fb77131911106",
       "src": "https://github.com/stevearc/conform.nvim"
@@ -24,6 +32,10 @@
     "gitsigns.nvim": {
       "rev": "dd3f588bacbeb041be6facf1742e42097f62165d",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "131a558e13f9f28b15cd235557150ccb23f89286",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mini.bufremove": {
       "rev": "8603490905fdfa31943cf2ede7ef4475e3dbac9a",
@@ -54,6 +66,10 @@
       "rev": "3f3eea97b80839f629c951ca660ffd125bfa5b34",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
+    "rose-pine": {
+      "rev": "6a961effd67f6130d36df6d1c05c48c739796dd2",
+      "src": "https://github.com/rose-pine/neovim"
+    },
     "vague.nvim": {
       "rev": "fd58046b9d64259d9785e4aeb6d6f494c6943cad",
       "src": "https://github.com/vague-theme/vague.nvim"
@@ -61,6 +77,10 @@
     "vim-tmux-navigator": {
       "rev": "e41c431a0c7b7388ae7ba341f01a0d217eb3a432",
       "src": "https://github.com/christoomey/vim-tmux-navigator"
+    },
+    "vim-tpipeline": {
+      "rev": "9c1fc6a9aed96a6ff5f5cb0420e3760e95dfb1c1",
+      "src": "https://github.com/vimpostor/vim-tpipeline"
     }
   }
 }

@@ -1,6 +1,10 @@
 local flash = require("flash")
 
-flash.setup()
+flash.setup({
+  modes = {
+    char = { enabled = false },
+  },
+})
 
 local map = vim.keymap.set
 map({ "n", "x", "o" }, "s", function() flash.jump() end, { desc = "Flash" })
