@@ -1,5 +1,6 @@
 local plugins = {
-  { src = "https://github.com/vague-theme/vague.nvim" },
+  { src = "https://github.com/rktjmp/lush.nvim" },
+  { src = "https://github.com/zenbones-theme/zenbones.nvim" },
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
   { src = "https://github.com/ibhagwan/fzf-lua" },
@@ -28,7 +29,7 @@ for _, dir in ipairs(vim.fn.readdir(opt_dir) or {}) do
   if not desired[dir] then pcall(vim.pack.del, { dir }) end
 end
 
-require("plugins.vague")
+require("plugins.theme")
 require("plugins.treesitter")
 require("plugins.fzf")
 require("plugins.gitsigns")
