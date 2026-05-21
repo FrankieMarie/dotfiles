@@ -1,12 +1,14 @@
 local plugins = {
-  { src = "https://github.com/rktjmp/lush.nvim" },
-  { src = "https://github.com/zenbones-theme/zenbones.nvim" },
+  { src = "https://github.com/yorumicolors/yorumi.nvim" },
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
   { src = "https://github.com/ibhagwan/fzf-lua" },
   { src = "https://github.com/lewis6991/gitsigns.nvim" },
   { src = "https://github.com/nvim-tree/nvim-tree.lua" },
-  { src = "https://github.com/Saghen/blink.cmp",                version = vim.version.range("1.*") },
+  {
+    src = "https://github.com/Saghen/blink.cmp",
+    version = vim.version.range("1.*"),
+  },
   { src = "https://github.com/stevearc/conform.nvim" },
   { src = "https://github.com/akinsho/bufferline.nvim" },
   { src = "https://github.com/echasnovski/mini.bufremove" },
@@ -20,13 +22,19 @@ local plugins = {
 
 vim.pack.add(plugins)
 
+-- Build a set of plugin dir names from the URLs above (last path segment, sans .git).
 local desired = {}
 for _, p in ipairs(plugins) do
   desired[p.src:match("([^/]+)$"):gsub("%.git$", "")] = true
 end
+
+-- Delete any plugin on disk that's no longer in the `plugins` list — keeps the
+-- opt dir in sync after you remove an entry above.
 local opt_dir = vim.fn.stdpath("data") .. "/site/pack/core/opt"
 for _, dir in ipairs(vim.fn.readdir(opt_dir) or {}) do
-  if not desired[dir] then pcall(vim.pack.del, { dir }) end
+  if not desired[dir] then
+    pcall(vim.pack.del, { dir })
+  end
 end
 
 require("plugins.theme")
