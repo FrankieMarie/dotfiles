@@ -1,3 +1,5 @@
+# shellcheck shell=bash
+
 # Interactive-only — skip when ssh/scp invoke a non-interactive shell.
 [[ $- != *i* ]] && return
 

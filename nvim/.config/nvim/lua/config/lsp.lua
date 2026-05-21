@@ -9,6 +9,8 @@ vim.lsp.enable({
   "basedpyright", "ruff",
   "tailwindcss", "astro",
   "yamlls", "dockerls",
+  "jsonls", "cssls", "html",
+  "bashls",
 })
 
 -- Diagnostic display

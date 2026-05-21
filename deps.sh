@@ -13,6 +13,7 @@ sudo pacman -S --needed --noconfirm \
   nodejs npm \
   python python-pipx \
   lua-language-server stylua \
+  shellcheck shfmt \
   git base-devel curl
 
 # Global npm packages — LSP servers and prettier.
@@ -23,6 +24,7 @@ npm install -g \
   yaml-language-server \
   dockerfile-language-server-nodejs \
   vscode-langservers-extracted \
+  bash-language-server \
   prettier
 
 # Python LSP / lint tools, isolated from system Python via pipx.
