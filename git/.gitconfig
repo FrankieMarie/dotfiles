@@ -1,0 +1,61 @@
+[user]
+	name = FrankieMarie
+	email = frankiemarie83@gmail.com
+
+# Repos under ~/work/ use the tilt identity instead.
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig-tilt
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+	pager = less -FRX
+
+[pull]
+	rebase = true
+
+[push]
+	default = current
+	autoSetupRemote = true
+
+[fetch]
+	prune = true
+
+[rebase]
+	autoStash = true
+	autoSquash = true
+
+[merge]
+	conflictstyle = zdiff3
+
+[diff]
+	algorithm = histogram
+	colorMoved = default
+
+[rerere]
+	enabled = true
+
+[column]
+	ui = auto
+
+[branch]
+	sort = -committerdate
+
+[alias]
+	s = status -sb
+	co = checkout
+	br = branch
+	cm = commit -m
+	cma = commit --amend --no-edit
+	lg = log --oneline --graph --decorate -20
+	last = log -1 HEAD --stat
+	unstage = reset HEAD --
+	pf = push --force-with-lease
+	root = rev-parse --show-toplevel
+
+# Host-specific (untracked) — e.g. WSL credential.helper pointing at Windows GCM.
+[include]
+	path = ~/.gitconfig.local

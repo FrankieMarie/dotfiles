@@ -49,6 +49,20 @@ if [ -d "$FNM_PATH" ]; then
   eval "$(fnm env --shell bash)"
 fi
 
+# fzf is a fuzzy finder. These vars shape every fzf invocation:
+#   FZF_DEFAULT_OPTS    — UI defaults (height, layout, etc.) applied globally.
+#   FZF_DEFAULT_COMMAND — what fzf runs to list candidates when nothing is piped in.
+#                          ripgrep is faster than `find` and respects .gitignore.
+#   FZF_CTRL_T_COMMAND  — what the Ctrl-T file-picker widget runs (bound by `fzf --bash`).
+export FZF_DEFAULT_OPTS='--height=40% --layout=reverse --border --info=inline'
+if command -v rg >/dev/null 2>&1; then
+  export FZF_DEFAULT_COMMAND='rg --files --hidden --glob=!.git'
+  export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+fi
+
+# ripgrep auto-loads flags from this file on every invocation (smart-case, ignores, etc.).
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
+
 # Guarded so a missing binary doesn't break shell startup on a fresh machine.
 command -v starship >/dev/null && eval "$(starship init bash)"
 command -v fzf >/dev/null && eval "$(fzf --bash)"
