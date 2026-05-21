@@ -25,6 +25,7 @@ npm install -g \
   dockerfile-language-server-nodejs \
   vscode-langservers-extracted \
   bash-language-server \
+  tree-sitter-cli \
   prettier
 
 # Python LSP / lint tools, isolated from system Python via pipx.
