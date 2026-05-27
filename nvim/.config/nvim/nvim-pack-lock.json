@@ -61,10 +61,6 @@
     "vim-tmux-navigator": {
       "rev": "e41c431a0c7b7388ae7ba341f01a0d217eb3a432",
       "src": "https://github.com/christoomey/vim-tmux-navigator"
-    },
-    "yorumi.nvim": {
-      "rev": "e5b93e2c0adb3d95ca9f3c5c20e824d15afcfe48",
-      "src": "https://github.com/yorumicolors/yorumi.nvim"
     }
   }
 }

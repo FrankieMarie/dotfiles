@@ -45,6 +45,17 @@ Untracked files in `$HOME` that override repo defaults on a single machine:
 - `~/.bashrc.local` — sourced at the end of `.bashrc`. Machine-specific env vars (proxies, paths, etc.).
 - `~/.gitconfig.local` — included by `.gitconfig`. Use for the WSL credential helper, host-specific signing, etc.
 
+## pnpm via corepack
+
+If you use `fnm` to manage Node, run `corepack enable` once after each `fnm install` — it sets up the `pnpm` shim in that Node version's bin dir. Corepack ships with Node, so no separate install is needed; it'll auto-fetch the version pinned in each repo's `packageManager` field.
+
+```bash
+fnm install 24
+corepack enable
+```
+
+Per Node version — every new `fnm install` needs its own `corepack enable`.
+
 ## Git identity routing
 
 Default identity is personal (`FrankieMarie / frankiemarie83@gmail.com`). Repos under `~/work/` switch to the tilt identity automatically via `[includeIf "gitdir:~/work/"]`.

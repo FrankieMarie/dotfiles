@@ -16,6 +16,9 @@ return {
   },
   settings = {
     tailwindCSS = {
+      includeLanguages = {
+        astro = "html",
+      },
       validate = true,
       lint = {
         cssConflict = "warning",

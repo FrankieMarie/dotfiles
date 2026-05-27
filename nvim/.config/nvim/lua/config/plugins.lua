@@ -1,5 +1,4 @@
 local plugins = {
-  { src = "https://github.com/yorumicolors/yorumi.nvim" },
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
   { src = "https://github.com/ibhagwan/fzf-lua" },
