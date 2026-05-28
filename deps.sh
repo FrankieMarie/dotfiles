@@ -14,19 +14,16 @@ sudo pacman -S --needed --noconfirm \
   python python-pipx \
   lua-language-server stylua \
   shellcheck shfmt \
-  git base-devel curl
+  git base-devel curl \
+  bash-language-server tree-sitter tree-sitter-cli \
+  tailwindcss-language-server yaml-language-server \
+  dockerfile-language-server prettier
 
-# Global npm packages — LSP servers and prettier.
-npm install -g \
+# Global npm packages — LSP servers not available in pacman.
+sudo npm install -g \
   @vtsls/language-server \
-  @tailwindcss/language-server \
   @astrojs/language-server \
-  yaml-language-server \
-  dockerfile-language-server-nodejs \
-  vscode-langservers-extracted \
-  bash-language-server \
-  tree-sitter-cli \
-  prettier
+  vscode-langservers-extracted
 
 # Python LSP / lint tools, isolated from system Python via pipx.
 pipx ensurepath >/dev/null
