@@ -3,6 +3,8 @@
 # Interactive-only — skip when ssh/scp invoke a non-interactive shell.
 [[ $- != *i* ]] && return
 
+cd ~
+
 export EDITOR=nvim
 export VISUAL=nvim
 export PATH="$HOME/.local/bin:$PATH"
