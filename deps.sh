@@ -14,7 +14,7 @@ sudo pacman -S --needed --noconfirm \
   python python-pipx \
   lua-language-server stylua \
   shellcheck shfmt \
-  git base-devel curl \
+  git base-devel curl github-cli \
   bash-language-server tree-sitter tree-sitter-cli \
   tailwindcss-language-server yaml-language-server \
   dockerfile-language-server prettier
@@ -29,3 +29,6 @@ sudo npm install -g \
 pipx ensurepath >/dev/null
 pipx install basedpyright
 pipx install ruff
+
+# gh CLI extensions.
+gh extension install dlvhdr/gh-dash 2>/dev/null || true
