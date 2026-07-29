@@ -31,7 +31,9 @@ If any tracked target already exists as a real file (e.g. a pre-existing `~/.git
 | Package    | Stows into                              |
 | ---------- | --------------------------------------- |
 | `bash`     | `~/.bashrc`, `~/.inputrc`, `~/.dircolors` |
+| `claude`   | `~/.claude/skills/`                     |
 | `gh-dash`  | `~/.config/gh-dash/`                    |
+| `herdr`    | `~/.config/herdr/`                      |
 | `git`      | `~/.gitconfig`, `~/.gitconfig-tilt`, `~/.gitignore_global` |
 | `kitty`    | `~/.config/kitty/`                      |
 | `nvim`     | `~/.config/nvim/`                       |

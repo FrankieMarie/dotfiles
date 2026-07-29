@@ -1,0 +1,13 @@
+onboarding = false
+
+[keys]
+prefix = "ctrl+space"
+new_tab = "prefix+t"
+split_vertical = "prefix+backslash"
+split_horizontal = "prefix+shift+minus"
+
+[theme]
+name = "catppuccin"
+
+[ui]
+host_cursor = "native"

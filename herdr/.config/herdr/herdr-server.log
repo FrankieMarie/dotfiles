@@ -1,0 +1,250 @@
+2026-07-29T14:11:44.037076Z  INFO herdr::api::server: api server listening path=/home/frankie/.config/herdr/herdr.sock
+2026-07-29T14:11:44.038400Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-29T14:11:44.574306Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-29T14:11:44.576318Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-29T14:11:44.577070Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=4527
+2026-07-29T14:11:44.577210Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-29T14:11:44.577213Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-29T14:11:44.577221Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:11:44.577226Z  INFO herdr::server::headless: created startup workspace cwd=/home/frankie
+2026-07-29T14:11:44.577271Z  INFO herdr::server::headless: client protocol socket listening path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:11:44.577283Z  INFO herdr::server::headless: herdr server started api_socket=/home/frankie/.config/herdr/herdr.sock client_socket=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:11:44.577446Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=4487
+2026-07-29T14:11:44.672573Z  INFO herdr::server::headless: client connected client_id=2 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:11:49.579827Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:11:52.687145Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=63 cols=228 scrollback_limit_bytes=10000000
+2026-07-29T14:11:52.688560Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=4678
+2026-07-29T14:11:52.688824Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:11:57.691098Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:12:01.254636Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:12:11.926831Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:12:12.834763Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:12:13.397665Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:12:18.400974Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:12:24.275030Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(4881)
+2026-07-29T14:12:38.738900Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:12:55.430449Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:12:57.135026Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:13:02.137695Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:13:05.277875Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:10.280915Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:13:18.169368Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=63 cols=218 scrollback_limit_bytes=10000000
+2026-07-29T14:13:18.170367Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=5622
+2026-07-29T14:13:18.170540Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:13:18.170591Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:13:20.977155Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:24.488774Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=63 cols=218 scrollback_limit_bytes=10000000
+2026-07-29T14:13:24.489769Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=5727
+2026-07-29T14:13:24.489959Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:27.330778Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-29T14:13:27.330871Z  INFO herdr::pane: pane session terminated pane=4 pid=5727 signal=Hangup
+2026-07-29T14:13:30.599515Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-29T14:13:30.599573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:30.599614Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:35.611462Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:13:36.386226Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:38.145165Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:13:39.699462Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-29T14:13:39.699553Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:13:39.699622Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:13:43.313612Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:13:48.326893Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:13:53.877264Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:54.751322Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:13:57.066598Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:13:57.582880Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:14:02.586041Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:17:58.231171Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:17:58.231429Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:18:10.062249Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:18:26.781034Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:18:27.497737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:18:28.004917Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:18:28.540546Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:18:33.553901Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:19:23.125181Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-29T14:19:23.127713Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-29T14:19:29.427330Z  INFO herdr::server::headless: client connected client_id=4 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:19:57.609249Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:22:36.492284Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:22:36.492549Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:22:50.615342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:22:51.214316Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:22:51.806158Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:22:52.238672Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:22:57.251547Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:23:32.795483Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:23:33.891975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:23:36.221547Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:23:37.344241Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:23:38.194755Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:23:39.227575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:23:39.925751Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:23:43.744553Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:23:48.746460Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:23:52.317862Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:23:59.281265Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:24:04.293691Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:28:34.381037Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:28:35.162594Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:28:40.167014Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:29:41.944694Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:30:33.009852Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:30:33.010793Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:31:01.551609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:31:02.171025Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:31:03.576396Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:31:04.701183Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:31:06.269998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:31:10.458239Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:31:14.111418Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-29T14:31:14.116422Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-29T14:31:15.460897Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:31:16.214678Z  INFO herdr::server::headless: client connected client_id=6 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:31:46.014131Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:31:51.028990Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:31:57.439748Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:32:02.442549Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:32:42.872842Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:32:47.887038Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:33:21.246975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:33:26.260225Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:33:27.285007Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:33:27.285242Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:34:25.510216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:34:30.523867Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:34:37.291195Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:34:42.305697Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:34:47.313175Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:34:52.315116Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:35:26.784179Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:35:31.796972Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:35:46.621291Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:35:51.624218Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:35:53.040855Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:35:54.983003Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:35:59.303370Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:36:01.651497Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:36:01.654302Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:36:04.316368Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:36:07.403872Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:36:12.406652Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:36:55.261128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:37:00.266471Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:37:00.611648Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-07-29T14:37:00.614386Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-07-29T14:37:02.386922Z  INFO herdr::server::headless: client connected client_id=8 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:37:24.999731Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=63 cols=218 scrollback_limit_bytes=10000000
+2026-07-29T14:37:25.000847Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=13260
+2026-07-29T14:37:25.001019Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:37:30.005452Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:37:31.145844Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:37:32.422942Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-07-29T14:37:32.423042Z  INFO herdr::pane: pane session terminated pane=5 pid=13260 signal=Hangup
+2026-07-29T14:37:37.425014Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:38:06.922610Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:38:06.922872Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:38:57.462235Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:38:57.462462Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:39:18.316851Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:39:18.317231Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:39:27.350390Z  INFO herdr::server::headless: client detach requested via keybind client_id=8
+2026-07-29T14:39:27.352860Z  INFO herdr::server::headless: client disconnected client_id=8
+2026-07-29T14:39:28.313272Z  INFO herdr::server::headless: client connected client_id=10 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:39:59.521358Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:40:04.533833Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:40:10.704563Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:40:15.716346Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:40:19.080490Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:40:24.083046Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:41:26.373122Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:41:31.386329Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:41:44.576037Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-29T14:42:50.710960Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:42:50.711257Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:42:56.786848Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:42:57.515271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:42:59.052809Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:42:59.951327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:43:04.953573Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:43:19.055395Z  INFO herdr::server::headless: client detach requested via keybind client_id=10
+2026-07-29T14:43:19.057843Z  INFO herdr::server::headless: client disconnected client_id=10
+2026-07-29T14:43:23.576900Z  INFO herdr::server::headless: client connected client_id=12 cols=254 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-29T14:43:46.249068Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:43:46.249390Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:44:29.886780Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:44:29.887108Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:44:59.571121Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T14:44:59.571430Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T14:45:36.548057Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:45:41.571556Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:48:14.152329Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:19.154421Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:48:22.852314Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=63 cols=218 scrollback_limit_bytes=10000000
+2026-07-29T14:48:22.854607Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=15906
+2026-07-29T14:48:22.854781Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:26.285489Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:29.458978Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:34.461219Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:48:41.379128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:46.392858Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:48:49.812670Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:51.692454Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:48:56.705379Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:48:57.987509Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:49:02.989628Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:49:03.816370Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:49:08.818750Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:49:22.458209Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:49:27.460106Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:49:34.103319Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:49:37.143053Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:49:39.102842Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:49:40.546066Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:49:45.549401Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:49:49.153688Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:49:54.156141Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:50:28.160461Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T14:50:29.192113Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:50:34.194438Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:50:44.933440Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:50:49.946686Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:52:08.009316Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:52:09.149270Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:52:14.151462Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:53:11.047657Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:53:11.793099Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:53:16.821686Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T14:58:01.773083Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T14:58:03.215650Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T14:58:08.218334Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:00:38.531451Z  INFO herdr::server::headless: client resize client_id=12 cols=254 rows=68 cell_width_px=0 cell_height_px=0
+2026-07-29T15:01:49.143844Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-29T15:01:49.144201Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-29T15:02:01.845118Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T15:02:06.750017Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:02:07.472724Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:02:12.474178Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:03:01.219672Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T15:03:06.221409Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:03:18.838166Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T15:03:54.305390Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:03:55.886738Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:04:00.908070Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:07:34.876754Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T15:07:34.924294Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:07:34.946504Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:07:34.974525Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T15:07:35.002155Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:07:37.641342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:07:38.182523Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-07-29T15:07:40.096543Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:07:40.448085Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:07:45.450484Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:07:58.625803Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:08:00.499128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:08:03.652769Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-29T15:08:08.664821Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1
+2026-07-29T15:08:11.553548Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:08:15.357542Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-07-29T15:08:20.358976Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frankie/.config/herdr/session.json workspaces=1

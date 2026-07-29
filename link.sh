@@ -3,7 +3,7 @@ set -euo pipefail
 
 DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-ALL_PACKAGES=(nvim tmux starship kitty bash git ripgrep gh-dash)
+ALL_PACKAGES=(nvim tmux starship kitty bash git ripgrep gh-dash herdr claude)
 
 if ! command -v stow >/dev/null 2>&1; then
   echo "stow not found — run ./deps.sh first" >&2

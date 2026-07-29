@@ -1,19 +1,21 @@
 vim.opt.background = "dark"
 vim.opt.fillchars:append({ vert = " " })
 
-vim.api.nvim_create_autocmd("ColorScheme", {
-  pattern = "habamax",
-  callback = function()
-    local groups = {
-      "Normal", "NormalNC", "SignColumn", "Folded",
-      "NvimTreeNormal", "NvimTreeNormalNC", "NvimTreeEndOfBuffer", "NvimTreeWinSeparator",
-      "WinSeparator", "VertSplit",
-      "TabLine", "TabLineFill", "TabLineSel",
-    }
-    for _, g in ipairs(groups) do
-      vim.api.nvim_set_hl(0, g, { bg = "NONE" })
-    end
-  end,
+require("catppuccin").setup({
+  flavour = "frappe",
+  transparent_background = true,
+  styles = {
+    comments = { "italic" },
+    keywords = { "italic" },
+    functions = { "italic" },
+    strings = { "italic" },
+    variables = { "italic" },
+  },
+  integrations = {
+    blink_cmp = true,
+    flash = true,
+    render_markdown = true,
+  },
 })
 
-vim.cmd.colorscheme("habamax")
+vim.cmd.colorscheme("catppuccin")

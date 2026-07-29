@@ -1,6 +1,7 @@
 local plugins = {
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   { src = "https://github.com/nvim-tree/nvim-web-devicons" },
+  { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
   { src = "https://github.com/ibhagwan/fzf-lua" },
   { src = "https://github.com/lewis6991/gitsigns.nvim" },
   { src = "https://github.com/nvim-tree/nvim-tree.lua" },
@@ -24,7 +25,7 @@ vim.pack.add(plugins)
 -- Build a set of plugin dir names from the URLs above (last path segment, sans .git).
 local desired = {}
 for _, p in ipairs(plugins) do
-  desired[p.src:match("([^/]+)$"):gsub("%.git$", "")] = true
+  desired[p.name or p.src:match("([^/]+)$"):gsub("%.git$", "")] = true
 end
 
 -- Delete any plugin on disk that's no longer in the `plugins` list — keeps the

@@ -1,0 +1,40 @@
+2026-07-29T14:11:44.587855Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=4486
+2026-07-29T14:11:44.587879Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:11:44.672232Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T14:12:01.254475Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:12:01.254539Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:13:28.292458Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:18:57.556955Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:19:23.125947Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=4486
+2026-07-29T14:19:29.396798Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=8020
+2026-07-29T14:19:29.396824Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:19:29.427280Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T14:20:41.595024Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:23:52.317633Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:23:52.317721Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:27:12.737415Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:31:14.113358Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=8020
+2026-07-29T14:31:16.003072Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=11104
+2026-07-29T14:31:16.003098Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:31:16.214627Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T14:36:18.791154Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:37:00.612684Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=11104
+2026-07-29T14:37:02.139002Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=13234
+2026-07-29T14:37:02.139040Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:37:02.386580Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T14:37:31.145689Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:37:31.145753Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T14:39:27.351142Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=13234
+2026-07-29T14:39:28.282832Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=14166
+2026-07-29T14:39:28.282855Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:39:28.312869Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T14:40:59.153914Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:42:59.916001Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T14:43:19.056227Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=14166
+2026-07-29T14:43:23.540168Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=14991
+2026-07-29T14:43:23.540193Z  INFO herdr::client: connecting to server path=/home/frankie/.config/herdr/herdr-client.sock
+2026-07-29T14:43:23.576488Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-29T15:02:06.515816Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
+2026-07-29T15:03:18.837993Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T15:03:18.838064Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-29T15:05:50.215595Z  WARN herdr::sound: sound playback failed sound=Done err=no mp3-capable audio player available: paplay failed: No such file or directory (os error 2); pw-play failed: No such file or directory (os error 2); ffplay failed: No such file or directory (os error 2); mpg123 failed: No such file or directory (os error 2); mpv failed: No such file or directory (os error 2)
