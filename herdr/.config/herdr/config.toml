@@ -4,10 +4,13 @@ onboarding = false
 prefix = "ctrl+space"
 new_tab = "prefix+t"
 split_vertical = "prefix+backslash"
-split_horizontal = "prefix+shift+minus"
+split_horizontal = "prefix+minus"
 
 [theme]
 name = "catppuccin"
 
 [ui]
 host_cursor = "native"
+
+[ui.sidebar.spaces]
+rows = [["state_icon", "workspace"], ["branch", "git_status"]]

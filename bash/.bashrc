@@ -68,3 +68,4 @@ command -v fzf >/dev/null && eval "$(fzf --bash)"
 
 # Per-host overrides (gitignored, untracked — for WSL-specific vars etc.)
 [ -f ~/.bashrc.local ] && source ~/.bashrc.local || true
+export PATH="$PATH:$HOME/go/bin"
