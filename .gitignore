@@ -1,1 +1,6 @@
 .claude/settings.local.json
+
+# herdr writes logs, sockets and session state into its config dir, which stow
+# folds into this repo — track only the hand-written config.
+herdr/.config/herdr/*
+!herdr/.config/herdr/config.toml
